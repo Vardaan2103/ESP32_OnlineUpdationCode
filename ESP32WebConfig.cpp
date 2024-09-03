@@ -38,7 +38,7 @@ void ESP32WebConfig::BEGIN()
   {
     debugPrintln("Connection to saved Wi-Fi failed. Switching to AP mode...");
     WiFi.mode(WIFI_AP);
-    WiFi.softAP("Enetra2", "MyPassword");  // Set your desired AP SSID and password
+    WiFi.softAP("SampleAP", "MyPassword");  // Set your desired AP SSID and password
     debugPrint("AP IP address: ");
     debugPrintln(WiFi.softAPIP().toString().c_str());
   }
