@@ -17,13 +17,17 @@ The `ESP32WebConfig` library provides a web-based interface for configuring Wi-F
    ```plaintext
    Documents/Arduino/libraries
 
+## Usage
+
+For a complete example of how to implement this library, refer to the example implementation file included in this repository. This file demonstrates how to set up and use the ESP32WebConfig library in a real-world scenario.
+
 ## Web Interface
 
 After uploading the sketch to your ESP32:
 
 ### Access Point Mode:
 
-- If the ESP32 cannot connect to the specified Wi-Fi network, it will start in Access Point mode with the SSID Enetra2 and password MyPassword.
+- If the ESP32 cannot connect to the specified Wi-Fi network, it will start in Access Point mode with the SSID SampleAP and password MyPassword.
 - Connect to this network using your computer or mobile device.
 
 ### Access the Web Interface:
