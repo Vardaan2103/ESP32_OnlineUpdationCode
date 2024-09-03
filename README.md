@@ -16,12 +16,15 @@ The `ESP32WebConfig` library provides a web-based interface for configuring Wi-F
 
    ```plaintext
    Documents/Arduino/libraries
-##mDNS Configuration
+## mDNS Configuration
+
 If your router or local network supports mDNS, you can access the ESP32 by typing http://esp32.local/ in your web browser. Otherwise, you'll need to use the IP address assigned by your router.
 
-##Debugging
+## Debugging
+
 Debug messages are printed to the serial monitor at 115200 baud. This can help you troubleshoot issues with Wi-Fi connectivity, mDNS setup, or other aspects of the web configuration process.
 
-##Future Improvements
+## Future Improvements
+
 Add support for more advanced configuration options (e.g., static IP setup).
 Implement additional security features (e.g., HTTP authentication).
