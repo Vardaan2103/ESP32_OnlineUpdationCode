@@ -16,6 +16,32 @@ The `ESP32WebConfig` library provides a web-based interface for configuring Wi-F
 
    ```plaintext
    Documents/Arduino/libraries
+
+## Web Interface
+
+After uploading the sketch to your ESP32:
+
+### Access Point Mode:
+
+- If the ESP32 cannot connect to the specified Wi-Fi network, it will start in Access Point mode with the SSID Enetra2 and password MyPassword.
+- Connect to this network using your computer or mobile device.
+
+### Access the Web Interface:
+
+Once connected, open a web browser and navigate to http://esp32.local/ (or the IP address assigned to the device).
+
+### Configure Wi-Fi:
+
+Click on the Configure Wi-Fi button and enter your desired Wi-Fi credentials.
+
+### Firmware Update:
+
+Click on the Firmware Update button to upload a new firmware file.
+
+### Reset Configuration:
+
+Click on the Reset Wi-Fi Credentials link on the Wi-Fi configuration page to reset the saved Wi-Fi settings.
+
 ## mDNS Configuration
 
 If your router or local network supports mDNS, you can access the ESP32 by typing http://esp32.local/ in your web browser. Otherwise, you'll need to use the IP address assigned by your router.
