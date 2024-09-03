@@ -26,7 +26,6 @@ In the setup() function of your sketch, call the BEGIN() method to initialize th
 void setup() {
   webConfig.BEGIN();
 }
-
 Loop
 In the loop() function, call the HANDLECLIENT() method repeatedly to process incoming HTTP requests:
 void loop() {
