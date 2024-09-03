@@ -26,5 +26,5 @@ Debug messages are printed to the serial monitor at 115200 baud. This can help y
 
 ## Future Improvements
 
-Add support for more advanced configuration options (e.g., static IP setup).
-Implement additional security features (e.g., HTTP authentication).
+- Add support for more advanced configuration options (e.g., static IP setup).
+- Implement additional security features (e.g., HTTP authentication).
